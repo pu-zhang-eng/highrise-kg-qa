@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Secrets: never commit these
+.env
+.streamlit/secrets.toml
+
+# Source paper texts are copyrighted; model files are large
+data/split/
+*.pdf
+mtl/
+models/
+*.zip
+
+# CasRel experiment: model weights, checkpoints, input texts and raw outputs
+*.pt
+*.bin
+checkpoint/
+input_txts/
+output_spo/
+
+# Logs
+*.log
+nvidia-bug-report*

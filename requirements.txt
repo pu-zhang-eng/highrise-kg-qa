@@ -1,0 +1,13 @@
+# QA app and Neo4j import
+py2neo==2021.2.4
+streamlit>=1.18
+
+# PDF conversion and triple extraction (HanLP installs PyTorch; its model downloads on first run)
+PyPDF2
+hanlp>=2.1,<2.2
+tqdm
+
+# CasRel experiment (casrel/)
+torch
+transformers
+jieba
